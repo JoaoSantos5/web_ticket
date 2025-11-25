@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="JS/script.js" defer></script>
+    <title>Painel de Atendimento</title>
+</head>
+<body>
+    <h1>🏥 Painel de Atendimento</h1>
+
+    <div class="container">
+        <div class="box"> 
+            <h2>Totem - Emitir Senha</h2>
+            <button onclick="emitirSenha('SP')">Emitir Prioritária (SP)</button>
+            <button onclick="emitirSenha('SG')">Emitir Geral (SG)</button>
+            <button onclick="emitirSenha('SE')">Emitir Exames (SE)</button>
+            <p><b>Última senha emitida:</b> <span id="ultima"></span></p>
+        </div>
+
+        <!-- Painel -->
+        <div class="box">
+            <h2>Painel de Chamadas</h2>
+            <div id="painel-lista"></div>
+        </div>
+
+        <!-- Atendente -->
+        <div class="box">
+            <h2>Atendente</h2>
+            <button onclick="passarSenha()" style="background: #ff0000;">não presente</button>
+            <button onclick="chamarProximo()">Chamar Próximo</button>
+        
+            <p><b>Senha atual:</b> <span id="atual"></span></p>
+        </div>
+    </div>
+
+    <!-- Relatório -->
+    <h1>Relatório de Senhas Emitidas</h1>
+
+    <div class="container">
+        <div class="box">
+            <h2>Senhas Emitidas</h2>
+            <div id="relatorio-lista"></div>
+            <h5>Total de Senhas Emitidas: <span id="total-senhas"></span></h5>
+            <h5>Total de Senhas Atendidas: <span id="total-atendidas"></span></h5>
+            <h5>Quantitativo das senhas emitidas, por prioridade:<span id="total-prioridades"></span></h5>
+            <h5>Quantitativo das senhas Atendidas, por prioridade:<span id="total-prioridades-at"></span></h5>
+        </div>
+
+        <div class="box">
+                <h2>Lista de Chamados</h2>
+                <div id="painel-lista"><ul id="myList"> </ul></div>
+        </div>
+    </div>
+</body>
+</html>
