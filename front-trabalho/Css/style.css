@@ -1,7 +1,7 @@
 body{
     font-family: Arial, sans-serif;
     background: #a9bce8;
-    background: radial-gradient(circle, rgba(169, 188, 232, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background: radial-gradient(circle, #a9bce8 0%, #498bd6 100%);
     padding: 20px;
 }
 h1, h2 { text-align: center; }
@@ -68,5 +68,6 @@ h1, h2 { text-align: center; }
         font-size: 13px;
         border-left: 3px solid #007bff;
     }
+
 
 
