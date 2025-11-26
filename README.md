@@ -1,15 +1,19 @@
 # web_ticket
 
 # descrição
-Sistemas de “tickets” são ferramentas para apoio àgestão do atendimento ao usuário. Também são conhecidos comosistemas de “chamados”, quando, por exemplo, tratando do
-atendimento de demandas no setor de TI. Essas ferramentastrabalham fornecendo um controle através do registro na filade atendimento que, por vezes, obedece a esquemas de priorização
+Sistemas de “tickets” para um hospital fictício, capaz de criar senhas e chamadas em um painel, com ordem de atendimento por tipo e ordem de chegada.
 
 #funções
 • emitir senhas
 • chamar senhas por prioridades
 • mostrar senha no painel de chamadas
 • passar senha atual no caso de não atendimento
-•
+• registrar hora e data do chamado
+• Adicionar chamado à lista de registros
+
+#utilização
+ Existem duas áreas de interação possíveis: “Totem – emitir senha” e “Atendente”. Na área Totem, é possível emitir os três tipos de senha pelos respectivos botões. Já na área Atendente, o responsável pode chamar e passar as senhas já emitidas.
+
 
 # autores do projeto
 Diego Antônio Rodrigues da Silva - 01802797
