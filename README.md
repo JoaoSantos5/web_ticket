@@ -3,7 +3,7 @@
 # descrição
 Sistemas de “tickets” para um hospital fictício, capaz de criar senhas e chamadas em um painel, com ordem de atendimento por tipo e ordem de chegada.
 
-#funções
+# funções
 • emitir senhas
 • chamar senhas por prioridades
 • mostrar senha no painel de chamadas
