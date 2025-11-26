@@ -7,6 +7,6 @@
 * interface do "atendente" chamar e passar senhas - OK
 
 # documentação
-README.md - OK
-LICENSE - OK
-TODO.md - OK
+*README.md - OK
+*LICENSE - OK
+*TODO.md - OK
